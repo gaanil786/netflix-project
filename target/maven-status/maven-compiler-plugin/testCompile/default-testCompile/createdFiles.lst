@@ -1,0 +1,5 @@
+com\netflix\tests\RegressionSuite.class
+com\netflix\tests\LoginTests.class
+com\netflix\tests\NavigationTests.class
+com\netflix\tests\SearchTests.class
+com\netflix\tests\DBConnectionTest.class
