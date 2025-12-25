@@ -7,7 +7,7 @@
 	<groupId>Practice</groupId>
 	<artifactId>netflix.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<packaging>war</packaging>
 	<name>netflix.com</name>
 	<!-- FIXME change it to the project's website -->
@@ -45,7 +45,7 @@
 			<artifactId>testng</artifactId>
 			<version>7.9.0</version>
 			<scope>compile</scope>
-		<!--	<scope>test</scope> -->
+			<!--	<scope>test</scope> -->
 		</dependency>
 
 		<!-- WebDriverManager -->
@@ -168,6 +168,14 @@
 				<plugin>
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>3.6.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>3.4.0</version>
+					<configuration>
+						<failOnMissingWebXml>false</failOnMissingWebXml>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
