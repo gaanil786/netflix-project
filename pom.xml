@@ -44,7 +44,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.9.0</version>
-			<scope>compile</scope>
+			<scope>test</scope>
 			<!--	<scope>test</scope> -->
 		</dependency>
 
@@ -147,6 +147,8 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.3.0</version>
 					<configuration>
+						<!-- Explicitly tell Surefire to use TestNG -->
+						<testNGArtifactName>org.testng:testng</testNGArtifactName>
 						<suiteXmlFiles> <!-- Point to your TestNG suite file -->
 							<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
