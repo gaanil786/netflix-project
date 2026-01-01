@@ -151,6 +151,7 @@
 						<suiteXmlFiles> <!-- Point to your TestNG suite file -->
 							<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
+						<useSystemClassLoader>false</useSystemClassLoader>
 					</configuration>
 				</plugin>
 				<plugin>
