@@ -2,7 +2,7 @@
 <suite name="Netflix Suite">
   <test name="Login Tests">
     <classes>
-      <class name="com.netflix.tests.LoginTests"/>
+      <class name="com.netflix.tests.LoginTests"/> <!-- some randome comments-->
     </classes>
   </test>
 </suite>
