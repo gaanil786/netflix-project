@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import com.netflix.base.BaseTest;
 import com.netflix.pages.SearchPage;
+import com.netflix.utils.WaitUtils;
 
 public class SearchBar extends BaseTest<SearchBar> {
 
@@ -15,7 +16,7 @@ public class SearchBar extends BaseTest<SearchBar> {
 	private WebElement searchSubmit;
 
 	public SearchBar search(String keyword) {
-		waitForVisible(searchInput);
+		WaitUtils.waitForVisibility(searchInput);
 		searchInput.sendKeys(keyword);
 		searchSubmit.click();
 		return this;

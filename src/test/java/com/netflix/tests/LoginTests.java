@@ -84,7 +84,5 @@ public class LoginTests extends BaseTest<LoginTests> {
 
 	
 	// Positive Test Cases
-	
-
 
 }

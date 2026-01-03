@@ -1,25 +1,322 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results retried="2" ignored="0" total="7" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-01T15:07:50 IST" name="Default suite" finished-at="2026-01-01T15:07:51 IST" duration-ms="689">
+  <suite started-at="2026-01-03T10:56:43 IST" name="Default suite" finished-at="2026-01-03T10:58:05 IST" duration-ms="81815">
     <groups>
     </groups>
-    <test started-at="2026-01-01T15:07:50 IST" name="Default test" finished-at="2026-01-01T15:07:51 IST" duration-ms="689">
-      <class name="com.netflix.db.DBQueryTest">
-        <test-method signature="FetchAllFailedTests()[pri:0, instance:com.netflix.db.DBQueryTest@38c6f217]" started-at="2026-01-01T15:07:50 IST" name="FetchAllFailedTests" finished-at="2026-01-01T15:07:51 IST" duration-ms="566" status="PASS">
+    <test started-at="2026-01-03T10:56:43 IST" name="Default test" finished-at="2026-01-03T10:58:05 IST" duration-ms="81815">
+      <class name="com.netflix.tests.LoginTests">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:56:36 IST" name="setUpSuite" finished-at="2026-01-03T10:56:43 IST" duration-ms="7143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FetchAllFailedTests -->
-        <test-method signature="verifyFailedTestsHaveEvidence()[pri:0, instance:com.netflix.db.DBQueryTest@38c6f217]" started-at="2026-01-01T15:07:51 IST" name="verifyFailedTestsHaveEvidence" finished-at="2026-01-01T15:07:51 IST" duration-ms="54" status="PASS">
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:56:48 IST" name="setUp" finished-at="2026-01-03T10:57:01 IST" duration-ms="13164" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFailedTestsHaveEvidence -->
-        <test-method signature="verifyPassedTestsFetched()[pri:0, instance:com.netflix.db.DBQueryTest@38c6f217]" started-at="2026-01-01T15:07:51 IST" name="verifyPassedTestsFetched" finished-at="2026-01-01T15:07:51 IST" duration-ms="32" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:01 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:07 IST" duration-ms="5459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WrongPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPassedTestsFetched -->
-      </class> <!-- com.netflix.db.DBQueryTest -->
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:07 IST" name="setUp" finished-at="2026-01-03T10:57:09 IST" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:09 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:13 IST" duration-ms="3318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidEmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:13 IST" name="setUp" finished-at="2026-01-03T10:57:15 IST" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:15 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:16 IST" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emptyemail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyFields1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:16 IST" name="setUp" finished-at="2026-01-03T10:57:18 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:18 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:19 IST" duration-ms="984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emptypass@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyFields2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:19 IST" name="setUp" finished-at="2026-01-03T10:57:21 IST" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:21 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:35 IST" duration-ms="13501" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SqlInjection]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [‘The password you just used was f Manager recommends changing] but found [The password you just used was found in a data breach. Google Password Manager recommends changing your password now.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [‘The password you just used was f Manager recommends changing] but found [The password you just used was found in a data breach. Google Password Manager recommends changing your password now.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.netflix.tests.LoginTests.LoginFunctionality(LoginTests.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:35 IST" name="setUp" finished-at="2026-01-03T10:57:37 IST" duration-ms="2279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:37 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:49 IST" duration-ms="11694" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SqlInjection]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [‘The password you just used was f Manager recommends changing] but found [The password you just used was found in a data breach. Google Password Manager recommends changing your password now.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [‘The password you just used was f Manager recommends changing] but found [The password you just used was found in a data breach. Google Password Manager recommends changing your password now.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.netflix.tests.LoginTests.LoginFunctionality(LoginTests.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:49 IST" name="setUp" finished-at="2026-01-03T10:57:51 IST" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:51 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:58:03 IST" duration-ms="11471" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SqlInjection]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [‘The password you just used was f Manager recommends changing] but found [The password you just used was found in a data breach. Google Password Manager recommends changing your password now.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [‘The password you just used was f Manager recommends changing] but found [The password you just used was found in a data breach. Google Password Manager recommends changing your password now.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.netflix.tests.LoginTests.LoginFunctionality(LoginTests.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:58:06 IST" name="tearDownSuite" finished-at="2026-01-03T10:58:06 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.netflix.tests.LoginTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

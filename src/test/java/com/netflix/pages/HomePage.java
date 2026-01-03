@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.netflix.base.BaseTest;
 import com.netflix.pages.component.SearchBar;
+import com.netflix.utils.WaitUtils;
 
 public class HomePage extends BaseTest<HomePage> {
 	@FindBy(css = "button.searchIcon")
@@ -18,7 +19,7 @@ public class HomePage extends BaseTest<HomePage> {
 	}
 
 	public HomePage openSearch() {
-		waitForClickable(searchButton);
+		WaitUtils.waitForClickable(searchButton); // imported waitUtils
 		searchButton.click();
 		return this;
 	}

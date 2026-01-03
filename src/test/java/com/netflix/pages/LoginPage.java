@@ -46,7 +46,7 @@ public class LoginPage extends BaseTest<LoginPage> {
 	}
 
 	public LoginPage enterEmail(String email) {
-		waitForVisible(emailField);
+		WaitUtils.waitForVisibility(emailField); // changed here
 		emailField.clear();
 		// Extra check when performing sql injection attempts
 		emailField.sendKeys(Keys.CONTROL + "a");
@@ -57,7 +57,7 @@ public class LoginPage extends BaseTest<LoginPage> {
 	}
 
 	public LoginPage enterPassword(String password) {
-		waitForVisible(passwordField);
+		WaitUtils.waitForVisibility(passwordField); // changed here
 		// Extra check when performing sql injection attempts
 		passwordField.sendKeys(Keys.CONTROL + "a");
 		passwordField.sendKeys(Keys.DELETE);
@@ -66,7 +66,7 @@ public class LoginPage extends BaseTest<LoginPage> {
 	}
 
 	public HomePage clickLogin() {
-		waitForClickable(loginBtn);
+		WaitUtils.waitForVisibility(loginBtn); // changed here
 		loginBtn.click();
 		return new HomePage(driver).init();
 
