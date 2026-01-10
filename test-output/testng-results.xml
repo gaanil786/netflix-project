@@ -2,20 +2,20 @@
 <testng-results retried="2" ignored="0" total="7" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-03T10:56:43 IST" name="Default suite" finished-at="2026-01-03T10:58:05 IST" duration-ms="81815">
+  <suite started-at="2026-01-06T18:11:07 IST" name="Default suite" finished-at="2026-01-06T18:12:33 IST" duration-ms="86197">
     <groups>
     </groups>
-    <test started-at="2026-01-03T10:56:43 IST" name="Default test" finished-at="2026-01-03T10:58:05 IST" duration-ms="81815">
+    <test started-at="2026-01-06T18:11:07 IST" name="Default test" finished-at="2026-01-06T18:12:33 IST" duration-ms="86197">
       <class name="com.netflix.tests.LoginTests">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:56:36 IST" name="setUpSuite" finished-at="2026-01-03T10:56:43 IST" duration-ms="7143" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:03 IST" name="setUpSuite" finished-at="2026-01-06T18:11:07 IST" duration-ms="3562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:56:48 IST" name="setUp" finished-at="2026-01-03T10:57:01 IST" duration-ms="13164" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:09 IST" name="setUp" finished-at="2026-01-06T18:11:36 IST" duration-ms="27023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:01 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:07 IST" duration-ms="5459" status="PASS">
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:36 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-06T18:11:40 IST" duration-ms="4169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,11 +36,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFunctionality -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:07 IST" name="setUp" finished-at="2026-01-03T10:57:09 IST" duration-ms="2297" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:40 IST" name="setUp" finished-at="2026-01-06T18:11:42 IST" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:09 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:13 IST" duration-ms="3318" status="PASS">
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:42 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-06T18:11:45 IST" duration-ms="2628" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFunctionality -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:13 IST" name="setUp" finished-at="2026-01-03T10:57:15 IST" duration-ms="2056" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:45 IST" name="setUp" finished-at="2026-01-06T18:11:47 IST" duration-ms="1928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:15 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:16 IST" duration-ms="1121" status="PASS">
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:47 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-06T18:11:47 IST" duration-ms="583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFunctionality -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:16 IST" name="setUp" finished-at="2026-01-03T10:57:18 IST" duration-ms="2254" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:47 IST" name="setUp" finished-at="2026-01-06T18:11:50 IST" duration-ms="2925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:18 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:19 IST" duration-ms="984" status="PASS">
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:50 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-06T18:11:51 IST" duration-ms="482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFunctionality -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:19 IST" name="setUp" finished-at="2026-01-03T10:57:21 IST" duration-ms="2239" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:51 IST" name="setUp" finished-at="2026-01-06T18:11:53 IST" duration-ms="2246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:21 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:35 IST" duration-ms="13501" status="SKIP">
+        <test-method retried="true" signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:11:53 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-06T18:12:05 IST" duration-ms="12093" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -178,11 +178,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFunctionality -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:35 IST" name="setUp" finished-at="2026-01-03T10:57:37 IST" duration-ms="2279" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:12:05 IST" name="setUp" finished-at="2026-01-06T18:12:08 IST" duration-ms="2749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:37 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:57:49 IST" duration-ms="11694" status="SKIP">
+        <test-method retried="true" signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:12:08 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-06T18:12:19 IST" duration-ms="10784" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -245,11 +245,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFunctionality -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:49 IST" name="setUp" finished-at="2026-01-03T10:57:51 IST" duration-ms="2169" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:12:19 IST" name="setUp" finished-at="2026-01-06T18:12:21 IST" duration-ms="2364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:57:51 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-03T10:58:03 IST" duration-ms="11471" status="FAIL">
+        <test-method signature="LoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:12:21 IST" name="LoginFunctionality" data-provider="loginData" finished-at="2026-01-06T18:12:32 IST" duration-ms="10719" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -312,7 +312,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFunctionality -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-03T10:58:06 IST" name="tearDownSuite" finished-at="2026-01-03T10:58:06 IST" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.netflix.tests.LoginTests@7c7b252e]" started-at="2026-01-06T18:12:33 IST" name="tearDownSuite" finished-at="2026-01-06T18:12:34 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
